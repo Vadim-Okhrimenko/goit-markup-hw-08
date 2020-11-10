@@ -80,7 +80,7 @@
   }
 
   &-menu-item .active::after {
-    content: '';
+    content: "";
     display: flex;
     width: 100%;
     position: absolute;
@@ -101,7 +101,10 @@
 }
 
 .address {
+  display: flex;
+
   &-link-header {
+    display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
@@ -109,7 +112,6 @@
     color: $gray;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    // display: flex;
 
     @media screen and (max-width: 767px) {
       font-size: 18px;

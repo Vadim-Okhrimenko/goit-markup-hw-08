@@ -140,7 +140,7 @@ body {
 }
 
 .header-menu-item .active::after {
-  content: '';
+  content: "";
   display: flex;
   width: 100%;
   position: absolute;
@@ -162,7 +162,12 @@ body {
   position: relative;
 }
 
+.address {
+  display: flex;
+}
+
 .address-link-header {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
