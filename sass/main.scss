@@ -1,26 +1,11 @@
-// Utils
-
-@import "./utils/variables";
-@import "./utils/visually-hidden";
-
-// Base
-
-@import "./base/common";
-@import "./base/container";
-
-// Components
-
-@import "./components/logo";
-@import "./components/modal_btn";
-@import "./components/social-links";
-@import "./components/subtitle";
-@import "./components/title";
-@import "./components/modal";
-
-// Layout
-
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/about";
-@import "./layout/clients";
-@import "./layout/footer";
+@import './utils/variables';
+@import './base/common';
+@import './base/container';
+@import './components/modal';
+@import './components/header';
+@import './components/hero';
+@import './components/features';
+@import './components/work';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
