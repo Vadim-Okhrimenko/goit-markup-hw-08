@@ -1,0 +1,67 @@
+.about-advantages {
+  padding-top: 108px;
+  padding-bottom: 94px;
+}
+
+.about .title {
+  margin-top: 94px;
+}
+
+.about-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  &-item {
+    position: relative;
+    max-width: 370px;
+  }
+
+  &-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+
+    &-subtitle {
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      line-height: 1.172;
+      color: $light-color;
+      text-align: center;
+    }
+  }
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: $secondary-main-color;
+
+  max-width: 270px;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: $secondary-main-color;
+  text-align: center;
+}
+
+.about-activity {
+  padding-bottom: 94px;
+}
+
+.title-img {
+  display: flex;
+  justify-content: space-between;
+}
